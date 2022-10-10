@@ -110,6 +110,15 @@ public class InputOutputOperator
         }
 
         // Size - whether value 1 is greater than or less than value 2
+        if (f1 > f2)
+        {
+            Console.WriteLine("{0:F4} is greater than {1:F4}.", f1, f2);
+        }
+        else
+        {
+            Console.WriteLine("{0:F4} is less than {1:F4}.", f1, f2);
+        }
+
         // Size with equality - whether value 1 is greater than or equal to or
         // less than or equal to value 2
     }
