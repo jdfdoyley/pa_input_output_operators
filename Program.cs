@@ -42,5 +42,10 @@ public class InputOutputOperator
 
         Console.WriteLine("\nEnter second number: ");
         int n2 = Convert.ToInt32(Console.ReadLine());
+
+        Console.WriteLine();
+
+        // Display the sum of those two values
+        Console.WriteLine($"The sum of {n1} and {n2} is {n1 + n2}.");
     }
 }
