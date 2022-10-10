@@ -53,14 +53,22 @@ public class InputOutputOperator
         // Equality - whether the values are equal or not equal
         if (n1 == n2)
         {
-            Console.WriteLine($"{n1} is equal to {n2}");
+            Console.WriteLine($"{n1} is equal to {n2}.");
         }
         else
         {
-            Console.WriteLine($"{n1} is not equal to {n2}");
+            Console.WriteLine($"{n1} is not equal to {n2}.");
         }
 
         // Size - whether value 1 is greater than or less than value 2
+        if (n1 > n2)
+        {
+            Console.WriteLine($"{n1} is greater than {n2}.");
+        }
+        else
+        {
+            Console.WriteLine($"{n1} is not greater than {n2}.");
+        }
 
         //     Size with equality - whether value 1 is greater than or equal to
         //     or less than or equal to value 2
