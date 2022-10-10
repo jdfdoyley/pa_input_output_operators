@@ -100,6 +100,15 @@ public class InputOutputOperator
 
         // Display the comparison results of value 1 to value 2, including:
         // Equality - whether the values are equal or not equal
+        if (f1 == f2)
+        {
+            Console.WriteLine("{0:F4} is equal to {1:F4}.", f1, f2);
+        }
+        else
+        {
+            Console.WriteLine("{0:F4} is not equal to {1:F4}.", f1, f2);
+        }
+
         // Size - whether value 1 is greater than or less than value 2
         // Size with equality - whether value 1 is greater than or equal to or
         // less than or equal to value 2
