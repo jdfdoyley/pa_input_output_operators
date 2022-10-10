@@ -47,5 +47,22 @@ public class InputOutputOperator
 
         // Display the sum of those two values
         Console.WriteLine($"The sum of {n1} and {n2} is {n1 + n2}.");
+
+        // Display the comparison results of value 1 to value 2, including:
+
+        // Equality - whether the values are equal or not equal
+        if (n1 == n2)
+        {
+            Console.WriteLine($"{n1} is equal to {n2}");
+        }
+        else
+        {
+            Console.WriteLine($"{n1} is not equal to {n2}");
+        }
+
+        // Size - whether value 1 is greater than or less than value 2
+
+        //     Size with equality - whether value 1 is greater than or equal to
+        //     or less than or equal to value 2
     }
 }
