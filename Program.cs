@@ -65,7 +65,7 @@ public class InputOutputOperator
         }
         else
         {
-            Console.WriteLine($"{n1} is less than {n2}.");
+            Console.WriteLine($"{n1} is less than or equal to {n2}.");
         }
 
         // Size with equality - whether value 1 is greater than or equal to
@@ -116,10 +116,18 @@ public class InputOutputOperator
         }
         else
         {
-            Console.WriteLine("{0:F4} is less than {1:F4}.", f1, f2);
+            Console.WriteLine("{0:F4} is less than or equal {1:F4}.", f1, f2);
         }
 
         // Size with equality - whether value 1 is greater than or equal to or
         // less than or equal to value 2
+        if (f1 >= f2)
+        {
+            Console.WriteLine("{0:F4} is greater than or equal to {1:F4}.", f1, f2);
+        }
+        else
+        {
+            Console.WriteLine("{0:F4} is less than or equal to {1:F4}.", f1, f2);
+        }
     }
 }
