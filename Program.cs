@@ -30,6 +30,17 @@ public class InputOutputOperator
 {
     static void Main(string[] args)
     {
+        // Print a line that states "Your Name - Week 1 PA IO & Operators"
         Console.WriteLine("Jason D'Oyley - Week 1 PA IO & Operators");
+
+        // Demonstrate integer-based operations
+        Console.WriteLine("\n");
+
+        // Retrieve 2 integer values from the user
+        Console.WriteLine("Enter first number: ");
+        int n1 = Convert.ToInt32(Console.ReadLine());
+
+        Console.WriteLine("\nEnter second number: ");
+        int n2 = Convert.ToInt32(Console.ReadLine());
     }
 }
