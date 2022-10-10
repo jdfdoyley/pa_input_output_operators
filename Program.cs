@@ -1,7 +1,7 @@
 ﻿/*******************************************************************************
  * Name: Jason D'Oyley
  * Date: Oct. 7, 2022
- * Performance Assessment: Input/Output and Operators
+ * Performance Assessment: IO & Operators
  *
  * Main application (program) class.
  * Write an application to demonstrate the use of input, output and operators.
@@ -30,6 +30,6 @@ public class InputOutputOperator
 {
     static void Main(string[] args)
     {
-        // Code here ...
+        Console.WriteLine("Jason D'Oyley - Week 1 PA IO & Operators");
     }
 }
